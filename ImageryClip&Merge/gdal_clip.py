@@ -1,7 +1,7 @@
 import gdal
 
 # 读取要切的原图
-in_ds = gdal.Open("/data/Aden/Aden110515YN1.tiff")
+in_ds = gdal.Open("/data/110515YN1.tiff")
 print("open tif file succeed")
 
 # 读取原图中的每个波段
