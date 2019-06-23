@@ -2,7 +2,7 @@ import gdal
 import numpy as np
 from skimage import io
 
-in_ds = gdal.Open("/data/Aden/Aden110515YN1.tiff")
+in_ds = gdal.Open("/data/110515YN1.tiff")
 print("open tif file succeed")
 
 in_band1 = in_ds.GetRasterBand(1)
