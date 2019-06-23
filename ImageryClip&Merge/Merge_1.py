@@ -4,7 +4,7 @@ from skimage import io
 import os
 from tqdm import tqdm
 
-in_ds = gdal.Open("/data/Aden/Aden110515YN1.tiff")
+in_ds = gdal.Open("/data/110515YN1.tiff")
 print("open tif file succeed")
 
 cols = in_ds.RasterXSize
